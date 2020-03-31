@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>阅读页</title>
+		<link rel="stylesheet" href="css/www.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/read.css"/>
+		<link rel="stylesheet" type="text/css" href="css/radio.css"/>
+		<link rel="stylesheet" type="text/css" href="css/slide.css"/>
+	</head>
+	<body>
+		<!-- 作为阅读页的顶部 -->
+		<header class="head">
+			<!-- 实现水平方向的居中效果 -->
+			<div class="container">
+				<!-- 完成网站的logo效果 -->
+				<div class="logo-container">
+					<a href="#">
+						<img src="imgs/head-logo.png">
+					</a>
+				</div>
+				<!-- 完成网站的导航菜单效果 -->
+				<div class="nav-container">
+					<!-- 完成导航菜单 -->
+					<ul>
+						<li class="active"><a href="#">首页</a></li>
+						<li><a href="#">阅读</a></li>
+						<li><a href="#">电台</a></li>
+						<li><a href="#">碎片</a></li>
+						<li><a href="#">客户端</a></li>
+					</ul>
+				</div>
+				<!-- 完成网站的登录与注册功能 -->
+				<div class="login-container">
+					<!-- 完成显示图标 -->
+					<div class="edit"><!-- 完成外层圆的效果 -->
+						<div><!-- 完成内层圆的效果 -->
+							<img src="imgs/edit-icon.png" >
+						</div>
+					</div>
+					<!-- 完成登录与注册按钮 -->
+					<div class="login">
+						<a href="#">登录 / 注册</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- 作为阅读页的主体 -->
+		<div class="container">
+		        <!-- 轮播图 -->
+		        <div class="choice-radio">
+		            <div class="slide-cpt radio-slide-cpt">
+		                <!-- <div class="banner-btn left-btn"></div> -->
+		        		
+		        		<input type="radio" name="slides" id="slide1" checked>
+		        		<input type="radio" name="slides" id="slide2">
+		        		<input type="radio" name="slides" id="slide3">
+		        		<div class="slide-controls">
+		        			<label for="slide1"></label>
+		        			<label for="slide2"></label>
+		        			<label for="slide3"></label>
+		        		</div>
+		        		
+		        		
+		                <div class="banner-img-box">
+		                    <ul class="img-group">
+		        				
+		        				<!-- 中间的图片 -->
+		                        <li class="active picture-mid" style="width: 640px; height: 375px; top: 0px; left: 160px;">
+		                            <a href="#" target="_blank">
+		                                <img src="imgs/d818133cfaa37a21c33b0f83d1c9f3e5.JPG">
+		                            </a>
+		                        </li>
+		        				<li class="active picture-mid" style="width: 640px; height: 375px; top: 0px; left: 160px;">
+		        				    <a href="#" target="_blank">
+		        				        <img src="imgs/0d144da74b1fcce96635bf796654ab5c.JPG">
+		        				    </a>
+		        				</li>
+		        				<li class="active picture-mid" style="width: 640px; height: 375px; top: 0px; left: 160px;">
+		        				    <a href="#" target="_blank">
+		        				        <img src="imgs/ac2673a13084d89209a1da395b6ba606.JPG">
+		        				    </a>
+		        				</li>
+		        				<!-- 左边的图片 -->
+		                        <li class="picture-left" style="width: 150px; height: 289px; top: 33px; left: 0px;">
+		                            <a href="#" target="_blank">
+		                                <img src="imgs/ac2673a13084d89209a1da395b6ba606.JPG">
+		                            </a>
+		                        </li>
+		        				<li class="picture-left" style="width: 150px; height: 289px; top: 33px; left: 0px;">
+		        				    <a href="#" target="_blank">
+		        				        <img src="imgs/d818133cfaa37a21c33b0f83d1c9f3e5.JPG">
+		        				    </a>
+		        				</li>
+		        				<li class="picture-left" style="width: 150px; height: 289px; top: 33px; left: 0px;">
+		        				    <a href="#" target="_blank">
+		        				        <img src="imgs/0d144da74b1fcce96635bf796654ab5c.JPG">
+		        				    </a>
+		        				</li>
+		        				<!-- 右边的图片 -->
+		                        <li class="picture-right" style="width: 150px; height: 289px; top: 33px; left: 810px;">
+		                            <a href="#" target="_blank">
+		                                <img src="imgs/ac2673a13084d89209a1da395b6ba606.JPG">
+		                            </a>
+		                        </li>
+		        				<li class="picture-right" style="width: 150px; height: 289px; top: 33px; left: 810px;">
+		        				    <a href="#" target="_blank">
+		        				        <img src="imgs/0d144da74b1fcce96635bf796654ab5c.JPG">
+		        				    </a>
+		        				</li>
+		        				<li class="picture-right" style="width: 150px; height: 289px; top: 33px; left: 810px;">
+		        				    <a href="#" target="_blank">
+		        				        <img src="imgs/d818133cfaa37a21c33b0f83d1c9f3e5.JPG">
+		        				    </a>
+		        				</li>
+		                    </ul>
+		        			<div class="banner-line" style="width: 108px;height: 10px;">
+		        				<label for="slide1" style="left: 0px;"></label>
+		        				<label for="slide2"></label>
+		        				<label for="slide3"></label>
+		        			</div>
+		        			
+		                </div>
+		                <!-- <div class="banner-btn right-btn"></div> -->
+		            </div>
+				</div>
+		        <!-- 轮播到此结束 -->
+		        <!-- 主体内容 -->
+		        <div class="index-content">
+					<!-- 文章分类 -->
+		            <div class="article-type-group">
+		                <div class="title-cpt">分类&nbsp;|&nbsp;Classification</div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/95306e1c2cea6c69c8a3d18bd3734bd820170113.jpg">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">早安故事</span>
+		                        <span class="type-des">Story/1061篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/f4522c10335620dcec512d796201384620180608.jpg">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">晚安故事</span>
+		                        <span class="type-des">Essay/836篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/f0ee4db57ae8d1e26b7bbbacd3ad0f1b.JPG">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">生活范</span>
+		                        <span class="type-des">Lifestyle/147篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/d360fe9a704805a2557aec4f080d5775.JPG">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">奇妙物语</span>
+		                        <span class="type-des">Fantasy/249篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/f79331a763d79c6fa18101428d8acf2020180706.jpeg">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">浮世汇</span>
+		                        <span class="type-des">World/515篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/1ce5f4769efcd95fb167f01825c4550120170111.jpg">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">读心术</span>
+		                        <span class="type-des">Psychology/243篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/cfd56242864499a8a51bd9c164d01ccf.JPG">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">破万卷</span>
+		                        <span class="type-des">Classics/699篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/6d9e964bf2d0af703b1905053e32feb820170112.jpg">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">审片室</span>
+		                        <span class="type-des">Movie/362篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/91faae658adab96b015d0710b18be60c.JPG">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">诗</span>
+		                        <span class="type-des">Poem/776篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/093354ab7590577aa7ebd579263a91d8.JPG">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">片刻Talk</span>
+		                        <span class="type-des">Interview/81篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/4ad920b94af594ed47b59ee25b2ee1f420170112.jpg">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">在路上</span>
+		                        <span class="type-des">Travels/195篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/8f905ea3d2a5792375128b7a66d214f7.JPG">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">角儿</span>
+		                        <span class="type-des">Character/112篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/49fe0b7c3bf23ea5b96df1e9b225aa6120170111.jpg">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">视觉系</span>
+		                        <span class="type-des">Vision/755篇</span>
+		                    </a>
+		                </div>
+		                <div class="article-type-cpt">
+		                    <a href="#">
+		                        <img src="imgs/14d1862a80c40e280a0d00f97d209cfe.JPG">
+		                        <span class="type-bg"></span>
+		                        <span class="type-title">片刻趴</span>
+		                        <span class="type-des">Party/86篇</span>
+		                    </a>
+		                </div>
+						<div class="article-type-cpt">
+						    <a href="#">
+						        <img src="imgs/1.jpeg">
+						        <span class="type-bg"></span>
+						        <span class="type-title">时光穿</span>
+						        <span class="type-des">Time/1246篇</span>
+						    </a>
+						</div>
+						<div class="article-type-cpt">
+						    <a href="#">
+						        <img src="imgs/wallhaven-oxv6gl.png">
+						        <span class="type-bg"></span>
+						        <span class="type-title">次元二</span>
+						        <span class="type-des">Dimen/256篇</span>
+						    </a>
+						</div>
+						<div class="article-type-cpt">
+						    <a href="#">
+						        <img src="imgs/wallhaven-5wqmj8.jpg">
+						        <span class="type-bg"></span>
+						        <span class="type-title">科技黑</span>
+						        <span class="type-des">Science/1024篇</span>
+						    </a>
+						</div>
+						<div class="article-type-cpt">
+						    <a href="#">
+						        <img src="imgs/77975f3100b4bcdae2672cefbc078208.jpg">
+						        <span class="type-bg"></span>
+						        <span class="type-title">内在美</span>
+						        <span class="type-des">Introbene/666篇</span>
+						    </a>
+						</div>
+		            </div>
+					<!-- 热门文章 -->
+		            <div class="article-list-group">
+		                <div class="title-cpt">热门文章&nbsp;|&nbsp;Hot Articles</div>
+		                <div class="article-cpt article-cpt-noimg">
+		                    <div class="article-info">
+		                        <div class="article-info-box">
+		                            <div class="article-title">
+		                                <a href="#" target="_blank">新的一年，你不解决这五件事，就不要奋斗了</a>
+		                            </div>
+		                            <div class="article-author">
+		                                <a href="#" target="_blank">By&nbsp;/&nbsp;陈慕妤</a>
+		                            </div>
+		                            <div class="article-content">
+		                                2018年，已经正式开始。新的一年，应该有新的展望和规划。如果你今年的习惯性行为，与往年一样，没有变化，那你只不过重复了又一年的2017而已，人生依然不会获得高品质的提升。美国作家兰德尔·贾雷尔说过，如果你被置于某种地位的时间足够长久，你的行为，就会开始适应那种地位的要求。这句话可以从两个层面去解读。1
+		                                &nbsp;如果你的时间一直停留在去做低价值地位的事情，长此以往，你对自己的要求和所做的事，都要以这种地...
+		                                <span class="view-all">
+		                                    <a href="#" target="_blank">VIEW ALL
+		                                        <img src="imgs/viewall.png">
+		                                    </a>
+		                                </span>
+		                            </div>
+		                        </div>
+		                        <div class="article-others">26.8 k次阅读&nbsp;&nbsp;|&nbsp;&nbsp;评论:142&nbsp;&nbsp;|&nbsp;&nbsp;喜欢:1.3 k
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="article-cpt article-cpt-noimg">
+		                    <div class="article-info">
+		                        <div class="article-info-box">
+		                            <div class="article-title">
+		                                <a href="#" target="_blank">缘浅缘深，如溪如河</a>
+		                            </div>
+		                            <div class="article-author">
+		                                <a href="#" target="_blank">By&nbsp;/&nbsp;潘云贵</a>
+		                            </div>
+		                            <div class="article-content">
+		                                天还未明，雾气弥漫。我在机场等待航班间隙买了杯热饮，是你喜欢喝的红茶。以前看着杯中茶色，整个人就感觉到暖，好像被人拥抱一般。现在心头还是会有这样的温度，但相比过去，已经疏淡很多，许是因你不在的缘故。身边旅客逐渐多起来。灰色的大衣、略显蓬乱的头发、飘忽的眼神、脸上散发出洁面乳的味道，相比于其他时段的乘客，坐早班机和深夜航班的乘客要显得憔悴、窘迫、忧心忡忡。他们没有梳洗打扮的时间，像被推挤的棋子在棋盘...
+		                                <span class="view-all">
+		                                    <a href="#" target="_blank">VIEW ALL
+		                                        <img src="imgs/viewall.png">
+		                                    </a>
+		                                </span>
+		                            </div>
+		                        </div>
+		                        <div class="article-others">36.1 k次阅读&nbsp;&nbsp;|&nbsp;&nbsp;评论:113&nbsp;&nbsp;|&nbsp;&nbsp;喜欢:1.1 k
+		                        </div>
+		                    </div>
+		                </div>
+		                <div class="article-cpt article-cpt-noimg">
+		                    <div class="article-info">
+		                        <div class="article-info-box">
+		                            <div class="article-title">
+		                                <a href="#" target="_blank">梦侦</a>
+		                            </div>
+		                            <div class="article-author">
+		                                <a href="#" target="_blank">By&nbsp;/&nbsp;阿帆哒</a>
+		                            </div>
+		                            <div class="article-content">
+		                                {暗区回忆}死者叫彭望，在睡梦中被刀刺中心脏死亡。行凶者是他的妻子张姝，她说有人在梦中控制她，让她从床上起来，到厨房拿刀，往丈夫身上扎三次，复睡下。清晨手摸到黏湿的床单，疑惑醒来，看到一片红，刀就在身边。张姝的睡袍也染了大片血。她唇色白，瑟瑟发抖，蓬松的长发中掺杂白丝，似乎是一夜之间冒出。双眼干涸，鱼尾纹在蜡黄的肤上像土地裂痕。脸腮凹陷，致颧骨突出，整个人干瘪，像身内有黑洞，使她日渐收缩。五官都在...
+		                                <span class="view-all">
+		                                    <a href="#" target="_blank">VIEW ALL
+		                                        <img src="imgs/viewall.png">
+		                                    </a>
+		                                </span>
+		                            </div>
+		                        </div>
+		                        <div class="article-others">16.0 k次阅读&nbsp;&nbsp;|&nbsp;&nbsp;评论:158&nbsp;&nbsp;|&nbsp;&nbsp;喜欢:1.4 k
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+					<!-- *********禁******** -->
+		            <div class="free-writing-one">
+		                <!-- <a href="#" target="_blank">
+		                    <img src="imgs/24hours.jpg">
+		                </a> -->
+						<div class="free-chilDdiv-one"></div>
+						<div class="free-chilDdiv-one"></div>
+						<div class="free-chilDdiv-one"></div>
+						<div class="free-chilDdiv-one"></div>
+		            </div>
+					<div class="free-writing-two">
+					    
+						<div class="free-chilDdiv-two"></div>
+						<div class="free-chilDdiv-two"></div>
+						<div class="free-chilDdiv-two"></div>
+						<div class="free-chilDdiv-two"></div>
+					</div>
+					<div class="free-writing-three">
+					    
+						<div class="free-chilDdiv-three"></div>
+						<div class="free-chilDdiv-three"></div>
+						<div class="free-chilDdiv-three"></div>
+						<div class="free-chilDdiv-three"></div>
+					</div>
+					
+					<!-- ************禁************* -->
+					<!-- 主题 -->
+		            <div class="topic">
+		                <a href="#" target="_blank">
+		                    <img src="imgs/topic.jpg">
+		                </a>
+		            </div>
+		            <div style="margin-top: 0;" class="topic">
+		                <a href="#" target="_blank">
+		                    <img src="imgs/wordcard.jpg">
+		                </a>
+		            </div>
+		        </div>
+		    </div>
+		<!-- 作为阅读页的底部 -->
+		<footer class="foot">
+			<div class="container-foot container">
+				<div class="desc">
+					<img src="imgs/foot-logo.png">
+					<div class="link">
+						<p>
+							<a href="#">关于我们</a>
+							<a href="#">友情链接</a>
+							<a href="#">片刻帮助</a>
+							<a href="#">意见反馈</a>
+							<a href="#">成长记忆</a>
+						</p>
+						<p>All right reserved @ 2020 piank.me /。。。</p>
+					</div>
+				</div>
+				<div class="icon">
+					<div class="app"></div>
+					<div class="sina"></div>
+					<div class="wechat"></div>
+					<div class="safe"></div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
