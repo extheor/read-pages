@@ -1,0 +1,210 @@
+body {
+	background-color: #F9F9F8;
+}
+.content > div {
+	width: 960px;
+	margin: 0 auto;
+}
+/* 聚焦图片组 */
+/* .focus-picture {
+	width: 960px;
+	margin: 0 auto;
+} */
+.focus-picture table, .focus-picture td {
+	border-collapse: collapse;
+	padding: 0;
+}
+.focus-picture table {
+	width: 100%;
+}
+.focus-picture table td {
+	width: 25%;
+}
+.focus-picture table td img {
+	display: block;
+	width: 240px;
+}
+.focus-picture table .big-picture img {
+	width: 480px;
+}
+/* 阅读组成部分 */
+.title {
+	background-image: url(../imgs/square.png);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	
+	padding-top: 70px;
+	padding-bottom: 40px;
+	background-position: 0 73px;
+}
+.read-container .content-container {
+	overflow: hidden;
+	border: 1px solid #EDEDED;
+}
+.read-container .content-container .article {
+	float: left;
+	box-sizing: border-box;
+	padding: 20px;
+	
+	width: 658px;
+	height: 186px;
+	font-weight: 300;
+}
+.read-container .content-container .article-img {
+	float: left;
+}
+.read-container .content-container .article-img img {
+	width: 300px;
+}
+/* 电台组成部分 */
+.ting-list-group {
+	
+}
+.ting-list-group .ting-list {
+	height: 420px;
+}
+.ting-list-group .ting-list .ting-cpt {
+	float: left;
+	margin-left: 30px;
+	
+	height: 420px;
+	background-color: #FFFFFF;
+}
+.ting-list-group .ting-list .ting-cpt:first-child {
+	margin-left: 0;
+}
+.ting-list-group .ting-list .ting-cpt img {
+	display: block;
+	width: 300px;
+}
+.ting-list-group .ting-list .ting-cpt .ting-other {
+	box-sizing: border-box;
+	padding: 25px 20px 13px;
+	height: 120px;
+	color: #333;
+	font-size: 12px;
+}
+.ting-list .ting-cpt .ting-other .ting-title {
+	padding-bottom: 10px;
+	font-size: 24px;
+	height: 24px;
+	width: 260px;
+	line-height: 26px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ting-list .ting-cpt .ting-other .ting-author {
+	padding-bottom: 13px;
+}
+.ting-list .ting-cpt .ting-other .ting-info {
+	font-weight: lighter;
+}
+
+.article .article-title {
+	font-size: 24px;
+}
+.article .article-author {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.article .article-blackLink {
+	width: 40px;
+	height: 1px;
+	border-top: 1px solid black;
+	margin-bottom: 10px;
+}
+.article .article-desc span {
+	position: relative;
+	left: 10px;
+}
+.article .article-desc span img {
+	width: 6px;
+	height: auto;
+	position: relative;
+	left: 5px;
+}
+.read-container .comarticle {
+	margin-bottom: 10px;
+}
+
+/* 人气片刻 */
+.popularity-container {
+	width: 960px;
+}
+.popularity-container .popular-list {
+	width: 240px;
+	height: 240px;
+	float: left;
+}
+.popularity-container .popular-list img:first-child {
+	width: 100%;
+	height: 100%;
+}
+.popularity-container .popular-list img:nth-child(2) {
+	position: relative;
+	top: -200px;
+	left: 25px;
+	border-radius: 50%;
+	width: 80px;
+	height: auto;
+}
+.popularity-container .popular-list img:nth-child(3) {
+	position: relative;
+	top: -172px;
+	left: -50px;
+	width: 60px;
+	height: auto;
+}
+.popularity-container .popular-list>div {
+	position: relative;
+	top: -263px;
+	left: 130px;
+}
+.popularity-container .popular-list>div .singer {
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.popularity-container .popular-list>div .littleLine {
+	width: 15px;
+	height: 1px;
+	border-top: 1px solid black;
+	margin-bottom: 10px;
+}
+.popularity-container .popular-list>div .intro {
+	font-size: 12px;
+	font-weight: 300;
+	color: #BABABA;
+}
+.popularity-container .morecontent {
+	float: left;
+	width: 200px;
+	height: 300px;
+	/* background-color: lightcoral; */
+	position: relative;
+	top: 135px;
+	left: 379px;
+	text-align: center;
+}
+.popularity-container .morecontent .font {
+	height: 50px;
+	width: 200px;
+	line-height: 50px;
+	border: 1px solid #78BC85;
+	border-radius: 25px;
+}
+.popularity-container .morecontent .font .defont {
+	height: 42px;
+	width: 192px;
+	line-height: 42px;
+	background-color: #78BC85;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 25px;
+	transition: .2s;
+}
+.popularity-container .morecontent .font:hover .defont {
+	box-shadow: inset 0 0 5px .5px #fff;
+}

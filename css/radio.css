@@ -1,0 +1,236 @@
+/* 电台类型 */
+.radio-type {
+    width: 960px;
+    margin: 0 auto;
+}
+.type-title-cpt {
+    clear: both;
+    padding-bottom: 34px;
+    padding-top: 40px;
+    color: #999;
+    font-size: 16px;
+}
+.type-title-cpt span {
+    cursor: pointer;
+    position: relative;
+}
+.type-title-cpt .active-cpt {
+    color: #333;
+}
+.type-title-cpt span:first-child {
+    margin-right: 30px;
+}
+.type-title-cpt .active-cpt::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    top: 30px;
+    left: 0;
+}
+/* 轮播图 */
+.radio-slide-cpt {
+    margin-top: 0;
+    margin-bottom: 81px;
+}
+/* 电台类型组 */
+.radio-type-group {
+    border: 1px dashed #333;
+    border-left: none;
+    border-right: none;
+    height: 139px;
+}
+.radio-type-cpt {
+    float: left;
+    height: 54px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    line-height: 54px;
+    text-align: center;
+    font-size: 17px;
+    margin: 0 4px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+.radio-type-cpt a {
+    color: #666;
+}
+.radio-type-cpt img {
+    vertical-align: sub;
+    padding-right: 14px;
+}
+/* 推荐 */
+.title-cpt {
+    clear: both;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-left: 28px;
+    background-position: 0 74px;
+    background-image: url(../imgs/square.png);
+}
+.ting-list-group .ting-list {
+    margin-left: -30px;
+}
+.ting-cpt {
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 420px;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    font-weight: 200;
+}
+.ting-cpt .ting-img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.ting-cpt a {
+    color: #333;
+}
+.ting-cpt a img {
+	height: 300px;
+	width: auto;
+	transition: .5s;
+}
+.ting-cpt:hover img {
+	transform: scale(1.2) rotate(5deg);
+	filter: blur(2px);
+}
+.ting-cpt .ting-info {
+    padding: 25px 20px 13px;
+}
+.ting-cpt .ting-info .ting-title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    height: 24px;
+    width: 260px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ting-cpt .ting-info .ting-author {
+    padding-bottom: 13px;
+}
+.ting-cpt .ting-info .ting-others {
+    font-weight: lighter;
+}
+
+.radio-list-group .radio-list {
+    width: 1020px;
+    margin-left: -30px;
+}
+.radio-cpt {
+    width: 340px;
+    float: left;
+    height: 498px;
+    text-align: center;
+    border-radius: 10px;
+}
+.radio-cpt .radio-img {
+    padding-top: 27px;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.radio-cpt .radio-img img {
+    display: block;
+    border-radius: 7px;
+	transition: .5s;
+}
+.radio-cpt .radio-img img:nth-child(1) {
+    transform: rotate(270deg);
+    width: 80%;
+    height: 80%;
+    margin-left: 30px;
+    margin-top: 70px;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.2);
+}
+.radio-cpt .radio-img img:nth-child(2) {
+    width: 90%;
+    height: 90%;
+    transform: rotate(90deg);
+    margin-left: 15px;
+    margin-top: -277px;
+    box-shadow: 0 10px 24px 0 rgba(0,0,0,0.1);
+}
+.radio-cpt .radio-img img:nth-child(3) {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0);
+    margin-top: -307px;
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,0.2);
+}
+.radio-cpt .radio-img:hover img:nth-child(1) {
+	transform: rotate(360deg);
+}
+.radio-cpt .radio-img:hover img:nth-child(2) {
+	margin-top: -282px;
+	transform: rotate(-360deg);
+}
+.radio-cpt .radio-img:hover img:nth-child(3) {
+	margin-top: -312px;
+}
+.radio-cpt .radio-img .radio-img-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    height: 91.6%;
+    margin-top: 23px;
+    border-radius: 7px;
+}
+.radio-cpt .radio-img span:not(.radio-img-bg) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 136px;
+    width: 170px;
+    height: 51px;
+    margin-left: 65px;
+    font-weight: 100;
+    opacity: 0;
+    text-align: center;
+}
+.radio-cpt .radio-info {
+    color: #333;
+    font-weight: 200;
+    font-size: 12px;
+}
+.radio-cpt .radio-info .radio-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    font-size: 30px;
+}
+.radio-cpt .radio-info a {
+    color: #333;
+}
+.radio-cpt .radio-info .radio-author {
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.radio-cpt .radio-info .radio-others {
+    font-weight: lighter;
+}
+
+.ting-list-group .ting-list {
+    margin-left: -30px;
+}
+.radio-ting-list .ting-cpt {
+    margin-bottom: 128px;
+}
